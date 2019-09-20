@@ -1,0 +1,92 @@
+*{
+margin:0;
+padding:0;
+}
+html{
+  background-image: url(background4.jpg);
+  text-align: center;
+}
+
+/*this is the header shit*/
+.header{
+background-image: url(c/charlie-waffles.png);
+background-position: center;
+background-size: cover;
+height:250px;
+width: 100%;
+}
+
+.header h1{
+  font-size: 70px;
+  color: hotPink;
+  text-shadow: 3px 3px white;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+/*end of header */
+
+.nav li{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: #2c87f0;
+  display: inline;
+}
+
+.aboutcharlie li{
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.jumpto{
+  color:hotpink;
+  word-spacing: 2px;
+  font-weight: bold;
+}
+/*colors for the about charlie list */
+.red{
+  color: red;
+}
+.pink{
+  color: hotpink;
+}
+.green{
+  color: green;
+}
+/*end colors list */
+/*header shit ends here*/
+
+
+/*body*/
+
+.main{
+}
+
+p{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+h2{
+}
+.title{
+  background-image: url(background2.jpg);
+  font-family: cursive;
+  font-size: 35px
+}
+.item{
+  padding: 5px;
+  display: inline-block;
+}
+.item img{
+  height:200px;
+  margin: 0px;
+  display: flex;
+  justify-content:flex-start;
+}
+.forms{
+  display:inline-flex;
+}
+.commentbox{
+background-color: pink;
+}
+/*end of body*/
